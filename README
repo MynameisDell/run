@@ -1,0 +1,16 @@
+AppLauncher 🚀
+
+AppLauncher is a lightweight command-line tool written in C that allows you to launch applications on macOS or iOS using either a Bundle Identifier or the Application Name. If you're unsure of the bundle identifier and only know the display name of the application, AppLauncher will automatically search for it and help you launch the app quickly.
+
+Key Features 🌟
+
+* Launch Applications: Run applications using their Bundle Identifier or Display Name.
+* Bundle Identifier Lookup: If the Bundle Identifier is not provided, AppLauncher will automatically find it based on the display name.
+* Detailed Error Handling: If the application fails to open, the tool provides an error code and the specific reason from the system.
+* Supports macOS and iOS: Designed to work on both operating systems.
+
+System Requirements 🖥️📱
+
+* macOS or jailbroken iOS
+* Xcode or Xcode Command Line Tools for compilation
+* Internal APIs of macOS or iOS (LSApplicationWorkspace, SBSLaunchApplicationWithIdentifier)
